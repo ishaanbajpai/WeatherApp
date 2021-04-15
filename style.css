@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Ninito", sans-serif;
+    background-image: linear-gradient(to right, blueviolet, white);
+}
+
+.input{
+    text-align: center;
+    margin: 100px;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.display{
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+}
